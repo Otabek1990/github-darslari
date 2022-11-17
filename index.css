@@ -3,22 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: orange;
-}
 nav {
-  background-color: royalblue;
+  background-color: whitesmoke;
   display: flex;
-  justify-content: center;
+  padding: 25px 50px;
+  justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
-h1 {
-  text-align: center;
+.nav-left a {
+  text-decoration: none;
 }
-
-button {
-  background-color: royalblue;
+.nav-center a {
+  text-decoration: none;
+  color: cornflowerblue;
+  margin-left: 20px;
 }
-input {
-  padding: 10px;
+.nav-right button:nth-child(1) {
+  padding: 5px 10px;
+  border: navajowhite;
+  color: black;
+  outline: 1px solid gray;
+  cursor: pointer;
+}
+.nav-right button:nth-child(2) {
+  padding: 5px 10px;
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  outline: 1px solid cornflowerblue;
+  cursor: pointer;
+}
+.nav-right button:nth-child(1):hover {
+  background-color: cornflowerblue;
+  color: white;
+  outline-color: cornflowerblue;
+}
+.nav-right button:nth-child(2):hover {
+  background-color: white;
+  color: cornflowerblue;
 }
