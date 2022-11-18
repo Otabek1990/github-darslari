@@ -22,3 +22,18 @@ button {
 input {
   padding: 10px;
 }
+
+.section__img{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.section__img img{
+  width: 250px;
+  height: 300px;
+  background-color: grey;
+  padding: 10px;
+}
+
